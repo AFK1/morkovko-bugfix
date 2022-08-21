@@ -23,23 +23,23 @@ export function setEmbedAuthor(embed, user) {
 }
 
 export function getRelLevelName(level: number) {
-  if (level >= 10 && level < 20) {
+  if (level < 20) {
     return 'Приятные знакомые';
-  } else if (level >= 20 && level < 30) {
+  } else if (level < 30) {
     return 'Потенциальные друзья';
-  } else if (level >= 30 && level < 40) {
+  } else if (level < 40) {
     return 'Развивающаяся дружба';
-  } else if (level >= 40 && level < 50) {
+  } else if (level < 50) {
     return 'Просто друзья';
-  } else if (level >= 50 && level < 60) {
+  } else if (level < 60) {
     return 'Близкие друзья';
-  } else if (level >= 60 && level < 70) {
+  } else if (level < 70) {
     return 'Лучшие друзья';
-  } else if (level >= 70 && level < 80) {
+  } else if (level < 80) {
     return 'Неразлучные союзники';
-  } else if (level >= 90 && level < 100) {
+  } else if (level < 100) {
     return 'Крепкая семья';
-  } else if (level >= 100 && level < 110) {
+  } else if (level < 110) {
     return 'Прекрасные партнеры';
   } else if (level >= 110) {
     return 'Ачбко порву';
