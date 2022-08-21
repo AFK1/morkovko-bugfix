@@ -115,6 +115,15 @@ function registerSlashCommands(clientId, guildId, token) {
           .setDescription('Кол-во горшков')
           .setRequired(true),
       ),
+      new SlashCommandBuilder()
+        .setName('казино')
+        .setDescription('Сделать ставку в казино')
+        .addStringOption((option) =>
+          option
+            .setName('кол-во')
+            .setDescription('ставка')
+            .setRequired(true),
+        ),
     new SlashCommandBuilder()
       .setName('увеличить')
       .setDescription(

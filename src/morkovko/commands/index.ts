@@ -16,6 +16,7 @@ import Info from './info';
 import Adate from './adate';
 import Friend from './friend';
 import Pugalo from './pugalo';
+import Casino from './casino';
 import NC from './admin/nc'; // обнулить морковки
 import NP from './admin/np'; // обнулить очки
 import GC from './admin/gc'; // выдать морковки игроку
@@ -40,6 +41,7 @@ export default [
   Adate,
   Friend,
   Pugalo,
+  Casino,
   NC,
   GC,
   GP,
