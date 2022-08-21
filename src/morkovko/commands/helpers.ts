@@ -23,9 +23,13 @@ export function setEmbedAuthor(embed, user) {
 }
 
 export function getRelLevelName(level: number) {
+<<<<<<< HEAD
   if (level < 10) {
     return 'Знакомые';
   } else if (level < 20) {
+=======
+  if (level < 20) {
+>>>>>>> 728bab6d2a0a31145a9c907826a8a7fd2053fb25
     return 'Приятные знакомые';
   } else if (level < 30) {
     return 'Потенциальные друзья';
